@@ -42,9 +42,3 @@ section[epub|type~="dedication"] > *{
 [epub|type~="z3998:diary-entry"] > header + p{
 	margin-top: 0;
 }
-
-#chapter-6 [epub|type~="z3998:diary-entry"]:last-child > p:last-child{
-	margin-top: 1em;
-	text-align: center;
-	text-indent: 0;
-}
