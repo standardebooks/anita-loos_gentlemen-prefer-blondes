@@ -30,6 +30,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Gentlemen Prefer Blondes</dc:title>
 		<meta property="file-as" refines="#title">Gentlemen Prefer Blondes</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">The Illuminating Diary of a Professional Lady</dc:title>
+		<meta property="file-as" refines="#subtitle">Illuminating Diary of a Professional Lady, The</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Gentlemen Prefer Blondes: The Illuminating Diary of a Professional Lady</dc:title>
+		<meta property="file-as" refines="#fulltitle">Gentlemen Prefer Blondes</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Humorous stories</dc:subject>
 		<dc:subject id="subject-2">Young women -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Diary fiction</dc:subject>
@@ -45,40 +52,44 @@
 		<meta property="term" refines="#subject-4">sh2008107175</meta>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008107169</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Comedy</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">The Guardian’s Best 100 Novels in English (2015)</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta property="group-position" refines="#collection-1">49</meta>
+		<dc:description id="description">The comedic diary of a young woman in the early 1920s recounts her escapades and romances in New York and across Europe.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Lorelei, a young woman in the early 1920s, decides to keep a diary after receiving a blank journal from a “gentleman friend.” Lorelei has an apartment in New York paid for by a Chicago businessman named Gus Eisman. When he is in town, Mr. Eisman spends his time “educating” Lorelei by going out to dinner, taking in shows, and then escorting her to her apartment to “talk about the topics of the day until quite late.” When he isn’t in town, Lorelei does much the same with other men she has charmed.&lt;/p&gt;
+			&lt;p&gt;Joined by her best friend Dorothy, Lorelei embarks on a journey to Europe in order to meet Mr. Eisman and continue her education. As the diary unfolds, we learn more about Lorelei’s past and her cynical, rather mercenary approach towards romance.&lt;/p&gt;
+			&lt;p&gt;Originally published as a series of sketches known as “the Lorelei stories” in &lt;i&gt;Harper’s Bazaar&lt;/i&gt;, &lt;i&gt;Gentlemen Prefer Blondes&lt;/i&gt; was published as a novel in 1925. Despite lukewarm initial reviews, it quickly became a success and has been adapted several times, most famously as the 1953 film starring Marilyn Monroe. Edith Wharton called it “the great American novel” and has been praised by numerous other authors including James Joyce and F. Scott Fitzgerald.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/66829</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/gentlemenpreferb0000unse</dc:source>
+		<meta property="se:production-notes">The original transcription contains the following note: The numerous spelling mistakes in this work are intentional, and have thus been retained.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Gentlemen_Prefer_Blondes</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/anita-loos_gentlemen-prefer-blondes</meta>
 		<dc:creator id="author">Anita Loos</dc:creator>
 		<meta property="file-as" refines="#author">Loos, Anita</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Anita_Loos</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50043422</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Léon Comerre</dc:contributor>
+		<meta property="file-as" refines="#artist">Comerre, Léon</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/L%C3%A9on_Comerre</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n81145914</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Jeroen Hellingman</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Hellingman, Jeroen</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-">The Online Distributed Proofreading Team</dc:contributor>
-		<meta property="file-as" refines="#transcriber-">Online Distributed Proofreading Team, The</meta>
-		<meta property="se:url.homepage" refines="#transcriber-">https://www.pgdp.net</meta>
-		<meta property="role" refines="#transcriber-" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-2">https://www.pgdp.net</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Jason DeCock</dc:contributor>
+		<meta property="file-as" refines="#producer-1">DeCock, Jason</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
