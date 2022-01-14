@@ -38,7 +38,3 @@ section[epub|type~="dedication"] > *{
 	font-style: italic;
 	text-align: initial;
 }
-
-[epub|type~="z3998:diary-entry"] > header + p{
-	margin-top: 0;
-}

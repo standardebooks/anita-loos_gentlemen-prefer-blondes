@@ -57,7 +57,7 @@
 		<meta id="collection-1" property="belongs-to-collection">The Guardian’s Best 100 Novels in English (2015)</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="group-position" refines="#collection-1">49</meta>
-		<dc:description id="description">The comedic diary of a young woman in the early 1920s recounts her escapades and romances in New York and across Europe.</dc:description>
+		<dc:description id="description">The comedic diary of a young woman in the early 1920s recounting her escapades and romances in New York and across Europe.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Lorelei, a young woman in the early 1920s, decides to keep a diary after receiving a blank journal from a “gentleman friend.” Lorelei has an apartment in New York paid for by a Chicago businessman named Gus Eisman. When he is in town, Mr. Eisman spends his time “educating” Lorelei by going out to dinner, taking in shows, and then escorting her to her apartment to “talk about the topics of the day until quite late.” When he isn’t in town, Lorelei does much the same with other men she has charmed.&lt;/p&gt;
 			&lt;p&gt;Joined by her best friend Dorothy, Lorelei embarks on a journey to Europe in order to meet Mr. Eisman and continue her education. As the diary unfolds, we learn more about Lorelei’s past and her cynical, rather mercenary approach towards romance.&lt;/p&gt;
@@ -73,11 +73,13 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/anita-loos_gentlemen-prefer-blondes</meta>
 		<dc:creator id="author">Anita Loos</dc:creator>
 		<meta property="file-as" refines="#author">Loos, Anita</meta>
+		<meta property="se:name.person.full-name" refines="#author">Corinne Anita Loos</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Anita_Loos</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50043422</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Léon Comerre</dc:contributor>
 		<meta property="file-as" refines="#artist">Comerre, Léon</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Léon François Comerre</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/L%C3%A9on_Comerre</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n81145914</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
