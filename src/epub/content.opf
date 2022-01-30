@@ -99,7 +99,6 @@
 		<dc:contributor id="producer-2">Matic Likar</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Likar, Matic</meta>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
-
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
