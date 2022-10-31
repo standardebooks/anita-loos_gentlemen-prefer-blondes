@@ -55,6 +55,9 @@
 		<meta id="collection-1" property="belongs-to-collection">The Guardian’s Best 100 Novels in English (2015)</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="group-position" refines="#collection-1">49</meta>
+		<meta id="collection-2" property="belongs-to-collection">Lorelei Lee</meta>
+		<meta property="collection-type" refines="#collection-2">series</meta>
+		<meta property="group-position" refines="#collection-2">1</meta>
 		<dc:description id="description">The comic diary of a young woman recounting her escapades and romances in 1920s New York and Europe.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;It’s the roaring 20s, and a young flapper named Lorelei decides to keep a diary after receiving a blank journal from a “gentleman friend.” She has an apartment in New York paid for by a Chicago businessman named Gus Eisman; when he’s in town, Mr. Eisman spends his time “educating” Lorelei by going out to dinner, taking in shows, and then escorting her to her apartment to “talk about the topics of the day until quite late.” When he’s away, Lorelei does much the same with the other men she has charmed.&lt;/p&gt;
