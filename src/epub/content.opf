@@ -66,7 +66,7 @@
 		<dc:source>https://archive.org/details/gentlemenpreferb0000unse</dc:source>
 		<meta property="se:production-notes">The original transcription contains the following note: The numerous spelling mistakes in this work are intentional, and have thus been retained.</meta>
 		<meta property="se:word-count">38888</meta>
-		<meta property="se:reading-ease.flesch">71.68</meta>
+		<meta property="se:reading-ease.flesch">71.78</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Gentlemen_Prefer_Blondes_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/anita-loos_gentlemen-prefer-blondes</meta>
 		<dc:creator id="author">Anita Loos</dc:creator>
